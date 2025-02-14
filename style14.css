@@ -1,0 +1,209 @@
+body
+{
+    width: 100vw;
+    height: 1000px;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/035/380/300/non_2x/ai-generated-large-pink-flowers-in-fields-with-a-full-moon-free-photo.jpg");
+    background-repeat: no-repeat;
+   background-color:rgb(217, 15, 153) ;
+    
+    
+    background-size: cover;
+   
+}
+header
+{
+    color: rgb(176, 16, 170);
+    text-align: center;
+    font-size:8ch ;
+    font-weight: 500;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.container
+{
+    position:relative;
+    width: 30vw;
+    height: 600px;
+    border: 5px solid rgb(142, 141, 141);
+    background-color: black;
+    align-content: center;
+    border-radius: 2em;
+    top:8%;
+    left:35%;
+    
+}
+.container{
+    background: linear-gradient(45deg,rgb(247, 83, 239),rgb(255, 43, 78),rgb(243, 32, 211));
+     
+     transform: scale(1.1);
+}
+.im{
+    position: absolute;
+    clip: auto;
+    width: 130px;
+    height: 130px;
+    top:1% ;
+    left:35%;
+    border: 2px solid snow;
+    border-radius: 50%;
+
+}
+.im:hover{
+    image-rendering: optimizeQuality ;
+}
+.box
+{ position: relative;
+   top:10%;
+   left: 5%;
+   border: 2px solid white;
+   border-radius: 1em;
+   padding: 5px;
+   margin-top: 11px;
+  margin-bottom: 10px;
+   font-size: large;
+   font-weight: 600;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    width: 410px;
+    height: 60px;
+    text-align: center;
+    color: rgb(246, 223, 16);
+    font-size:medium;
+}
+.box:hover{
+    font-size: x-large;
+    background-color: rgb(80, 3, 95);
+    transform: perspective(500px) translate3d(20px, 0, 30px) rotateY(25deg);
+
+   
+    
+    height: 80px;
+}
+.flame
+{
+    position:relative;
+    top:-30%;
+    left:15%;
+    width: 80px;
+    height: 80px;
+   color: rgba(235, 164, 11, 0.834);
+   animation: an 2s infinite linear;
+   
+   border-radius: 50%;
+   background: linear-gradient(180deg,rgb(199, 16, 6),transparent);
+ 
+}
+.candle
+{
+    position:relative;
+    top:-30%;
+    left:15%;
+    width: 68px;
+    height: 400px;
+    background-image:url("https://cdn.pixabay.com/photo/2017/01/18/21/30/banner-1990932_1280.png");
+   background-size:cover;
+    border-radius: 1em;
+}
+#o1
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgb(236, 26, 26);
+    left: 15%;
+    top:-80%;
+    animation: ma 3s infinite ;
+}
+#o2
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgb(236, 26, 26);
+    left: 17%;
+    top:-80%;
+    animation: ma 3s infinite ;
+
+}
+#o3
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgb(236, 26, 26);
+    left: 14%;
+    top:-83%;
+    animation: ma 3s infinite ;
+}
+#o4
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgb(236, 26, 26);
+    left: 14.8%;
+    top:-83%;
+    animation: ma 3s infinite ;
+}
+#o5
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgb(236, 26, 26);
+    left: 12.8%;
+    top:-86%;
+    animation: ma 3s infinite ;
+}
+#o6
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgb(236, 26, 26);
+    left: 13.6%;
+    top:-86%;
+    animation: ma 3s infinite ;
+}
+footer{
+    font-size: 4ch;
+    color:rgb(247, 240, 20) ;
+    font-weight: 400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+@keyframes an{
+    50%
+    {
+        opacity: 70%;
+    }
+    50%
+    {
+      color:#d5840bed;
+      width: 82.3px;
+    }
+}
+@keyframes ma{
+    75%{
+    transform: translateY(20px) translateX(10px) ;
+    transform: scale(1.3);
+    
+    }
+    
+    25%{
+        width: 0;
+        height: 0;
+    }
+
+
+}
+
+
+
